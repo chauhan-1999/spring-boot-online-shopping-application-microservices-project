@@ -1,7 +1,7 @@
 CREATE TABLE orders (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    order_number VARCHAR(255) NOT NULL,
-    sku_code VARCHAR(255) NOT NULL,
-    price DECIMAL(19,2) NOT NULL,
-    quantity INT(11) NOT NULL
+    order_number VARCHAR(255),
+    sku_code VARCHAR(255),
+    price DECIMAL(19,2),
+    quantity INT(11)
 );
